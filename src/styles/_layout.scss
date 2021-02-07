@@ -1,0 +1,49 @@
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 13vh;
+    img {
+        max-width:100%;
+        max-height:100%;    
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        a {
+            text-decoration: none;
+            margin-right: 5em;
+            font-size: 1.1rem;
+            color: black;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+
+    .postlist {
+        border: 1px solid black;
+        flex: 1;
+        height: 30vh;
+        width: 100%;
+        margin: 1rem;
+    }
+    .form {
+        flex: 1;
+        border: 1px solid black;
+        height: 50vh;
+        width: 100%;
+        margin: 1rem;
+
+    }
+}

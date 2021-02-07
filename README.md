@@ -1,2 +1,3 @@
 # share-it
-A place to share everything.
+
+a place to share everything.
